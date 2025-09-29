@@ -1,0 +1,130 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f0e6; /* beige background */
+  margin: 40px;
+  color: #333; /* dark gray text */
+  line-height: 1.6;
+  text-align: left;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #0a2a66; /* navy underline */
+}
+
+header h1 {
+  font-family: "Times New Roman", serif;
+  font-size: 28px;
+  margin: 0;
+  color: #0a2a66; /* navy */
+}
+
+header p {
+  font-size: 14px;
+  color: #0a2a66; /* navy for contact info */
+  font-weight: bold;
+}
+
+/* Section Titles */
+h2 {
+  font-family: "Times New Roman", serif;
+  font-size: 22px;
+  border-bottom: 2px solid #0a2a66; /* navy line */
+  padding-bottom: 4px;
+  margin-top: 30px;
+  color: #0a2a66; /* navy */
+}
+
+/* Education row layout */
+.education-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.education-row p {
+  margin: 5px 0;
+}
+
+.education-row .grad {
+  text-align: right;
+  flex: 1;
+}
+
+@media (max-width: 600px) {
+  .education-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .education-row .grad {
+    text-align: left;
+    margin-top: 4px;
+  }
+}
+
+/* Experience sections with border */
+.experience {
+  border: 1px solid #0a2a66; /* navy border */
+  padding: 12px;
+  margin-bottom: 15px;
+  background-color: #fff; /* white card */
+  border-radius: 6px;
+}
+
+.experience h3 {
+  font-family: "Times New Roman", serif;
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #0a2a66; /* navy */
+}
+
+/* Professional Skills: 2 rows x 4 columns */
+.skills {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px 20px;
+  text-align: center;
+}
+
+.skills li {
+  font-size: 14px;
+  background: #fff; /* white card for contrast */
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Responsive grid adjustments */
+@media (max-width: 768px) {
+  .skills {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .skills {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Links */
+a {
+  color: #0a2a66;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
