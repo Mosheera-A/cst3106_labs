@@ -26,7 +26,7 @@ This documentation provides a clear and simplified overview of the design system
 ![Section Title Mock-up](s-title.png)
 
 ### Skills Grid
-- **Design:** 4-column grid on desktop, shrinks to 2 columns (tablet) or 1 column (phone). Each skill in a small card.  
+- **Design:** 4-column grid on desktop,or 2 column (phone). Each skill in a small card.  
 - **Mock-up Screenshot:**  
 ![Skills Grid Mock-up](skills-grid.png)
 
