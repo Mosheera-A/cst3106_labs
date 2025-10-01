@@ -23,7 +23,7 @@ This documentation provides a clear and simplified overview of the design system
 ### Section Title
 - **Design:** Serif heading with navy underline.  
 - **Mock-up Screenshot:**  
-![Section Title Mock-up](section-title.png)
+![Section Title Mock-up](s-title.png)
 
 ### Skills Grid
 - **Design:** 4-column grid on desktop, shrinks to 2 columns (tablet) or 1 column (phone). Each skill in a small card.  
