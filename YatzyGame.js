@@ -1,5 +1,5 @@
 import { Dice } from './dice.js';
-import { YatzyEngine } from './yatzyEngine.js';
+import { yatzyEngine } from './yatzyEngine.js';
 
 export class YatzyGame {
   constructor(players = ['Player 1']) {
@@ -8,7 +8,7 @@ export class YatzyGame {
     this.round = 1;
     this.totalScore = 0;
     this.dice = new Dice();
-    this.engine = new YatzyEngine();
+    this.engine = new yatzyEngine();
   }
 
   startNewGame() {
