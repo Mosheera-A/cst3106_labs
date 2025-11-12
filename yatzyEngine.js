@@ -171,3 +171,5 @@ export class yatzyEngine {
     /** Backward-compatible total() */
     total() { return this.grandTotal(); }
 }
+
+/** updated. */
